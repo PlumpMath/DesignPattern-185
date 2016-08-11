@@ -1,0 +1,3 @@
+Insurance(A) -> LifeInsurance HealthInsurance VehicleInsurance
+
+Factory(I) -> getInsurance() Method -> Implementation -> InsuranceFactory

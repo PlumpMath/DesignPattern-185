@@ -1,0 +1,52 @@
+Comparision of Structural Pattern
+
+Structural Pattern uses Composition over Inheritance
+=======================================================   
+
+
+Adapter:
+- Class adapter and object Adapter
+- java uses only object adapter
+- uses composition over inheritance
+- two unrelated objects are made to work together
+- changes the objects interface 
+Example: Arrays.asList(), InputStreamReader
+
+
+
+Decorator:
+- adds/changes responsibility dynamically
+- more than one decorators can be used
+Example: java.io.Classes - ObjectOutputStream(FileOutputStream(File))
+
+
+
+Facade:
+- one entry point or a single interface through which a group of objects  are Accessed
+- make an entry point subsystems
+- subsystems are not aware of the Facade
+Example:  ExternalContext as in JSF, pageContext as JEE, $.ajax as in jquery
+
+
+
+Proxy:
+
+- controlled Access
+- Stand in for a Complex Object
+- Proxies are created from Interfaces
+Example: RMI - Stubs
+
+
+
+Composite:
+- Tree like Structure
+- many leaves
+- composite holds the leaves
+- used for recursion
+Example: addAll(Collection), Map.putAll(Map) 
+
+
+
+Bridge:
+- Decouple an abstraction from its implementation so that the two can vary independently
+- two different hierarchy
